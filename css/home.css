@@ -53,6 +53,23 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
+.fb {
+	background: url('../j.png') no-repeat -18px -21px;
+	width: 42px;
+	height: 41px;
+}
+
+.msgs {
+	background: url('../j.png') no-repeat -77px -21px;
+	width: 41px;
+	height: 42px;
+}
+
+.ig {
+	background: url('../j.png') no-repeat -18px -79px;
+	width: 42px;
+	height: 42px;
+}
 
 #about a:link {
     color: #FF0000;
