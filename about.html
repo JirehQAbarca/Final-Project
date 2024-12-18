@@ -4,7 +4,24 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About Us</title> 
+
+    <style>
+        .youtube-audio {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    }
+.youtube-audio iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560px; /* Original YouTube player width */
+    height: 315px; /* Original YouTube player height */
+    visibility: hidden; /* Hide the video */
+    }
+    </style>
 </head>
 <body>
 
@@ -19,29 +36,63 @@
     </p>
     <p>
         Founded in 2024 because its our project, I have grown into a dynamic and customer-focused company, with a track record of delivering solutions that make a difference. At DecK-MicRow.com, I believe that success comes from TRUTH, INTEGRITY, and SERVICE TO NATION.
-    </p>
+    </p>    
+
+
+
+    <div id="dano">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D9N7QaIOkG8?si=E9Fi67t5pfXK4G1B" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
     <div class="team">
         
 	<h2>Made by:</h2>
         <div class="team-members">
-            <div class="team-member">
+            <div class="team-member-featured">
                 
                 <h4>Jireh</h4>
                 <p>-Crammer</p>
             </div>
-            <div class="team-member">
+            <div class="team-member-featured">
                 
                 <h4>Quijano</h4>
                 <p>-Designer</p>
             </div>
-            <div class="team-member">
+            <div class="team-member-featured">
                 
                 <h4>Abarca</h4>
                 <p>-Igop</p>
             </div>
         </div>
-    </div>
+    </div> 
+
+    <div class="youtube-audio">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/D9N7QaIOkG8?si=E9Fi67t5pfXK4G1B" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe> 
+    </div> 
+
+    <img src="jireh.webp"> 
+
+    <h2>Go Back</h2> 
+
+    <p>If you wish to go back to main page, you may click here: </p> 
+    <a href="home.html">Back to the main page. </a> 
+
+    <div id="p1">If you have any concerns, you may contact me through:</div> 
+    <div id="p2">Email - jireh.abarca@smc.spshs.edu.ph</div> 
+    <div id="p3">Number - 09954142883</div> 
+    <div id="p4">Facebook -  Jireh Abarca</div>
+
 </section>
 
 </body>
