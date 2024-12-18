@@ -54,32 +54,64 @@ nav ul li a:hover {
 }
 
 .fb {
-	background: url('../j.png') no-repeat -18px -21px;
-	width: 42px;
-	height: 41px;
-}
+	background: url('../j.png') no-repeat 0px 0px;
+	width: 60px;
+	height: 60px; 
+    animation: spriteAnim 1s steps(4) infinite; 
+} 
 
+@keyframes spriteAnim {
+    from {
+        background-position: 0 0; /* Start at the first frame */
+    }
+    to {
+        background-position: -168px 0; /* End at the last frame (adjust for your sprite sheet) */
+    }
+}
+    
 .msgs {
 	background: url('../j.png') no-repeat -77px -21px;
-	width: 41px;
-	height: 42px;
+	width: 60px;
+	height: 60px; 
+    animation: varName 2s steps(4) infinite; 
+}
+
+@keyframes varName {
+    from {
+        background-position: 0 0; /* Start at the first frame */
+    }
+    to {
+        background-position: -168px 0; /* End at the last frame (adjust for your sprite sheet) */
+    }
 }
 
 .ig {
 	background: url('../j.png') no-repeat -18px -79px;
-	width: 42px;
-	height: 42px;
+	width: 60px;
+	height: 60px; 
+    animation: varName 4s steps(4) infinite;
+}
+
+@keyframes varName {
+    from {
+        background-position: 0 0; /* Start at the first frame */
+    }
+    to {
+        background-position: -168px 0; /* End at the last frame (adjust for your sprite sheet) */
+    }
 }
 
 #about a:link {
     color: #FF0000;
     text-decoration: none;
+    transform:skew(-30deg);
 }
 
 #about a:hover {
     color: #ff5c33;
     font-size: larger;
     transition: 1s; 
+    transform:skew(-30deg);
 }
 
 #about a:active {
@@ -147,4 +179,39 @@ footer p {
 img {
     text-align: center;
     align-items: center;
+} 
+
+img:hover { 
+    transition: 1s; 
+    transform:skew(-90deg); 
+} 
+
+p:nth-last-child(1) { 
+    color: blue; 
+    font-size: 30px;
+}
+ 
+p:nth-last-child(2) { 
+    color: blue; 
+    font-size: 30px;
+}
+ 
+p:nth-last-child(3) { 
+    color: blue; 
+    font-size: 30px;
+}
+ 
+p:nth-last-child(4) { 
+    color: blue; 
+    font-size: 30px;
+}
+ 
+p:nth-last-child(5) { 
+    color: blue; 
+    font-size: 30px;
+}
+ 
+p:nth-last-child(6) { 
+    color: blue; 
+    font-size: 30px;
 }
