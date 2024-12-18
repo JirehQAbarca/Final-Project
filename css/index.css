@@ -52,4 +52,23 @@ section p {
 }
 .team-member h4 {
     margin-top: 10px;
-}
+} 
+
+img {
+    text-align: center;
+    align-items: center;
+} 
+
+img:hover { 
+    transition: 1s; 
+    transform:skew(-25deg); 
+} 
+
+div [class*="featured"] {
+    background-color: yellow;
+} 
+
+#p1 { border: 1px solid black; border-radius: 15px; } 
+#p2 { border: 1px solid black; border-radius: 15px 50px; } 
+#p3 { border: 1px solid black; border-radius: 15px 50px 30px; } 
+#p4 { border: 1px solid black; border-radius: 15px 50px 30px 5px;} 
